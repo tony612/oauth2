@@ -18,11 +18,11 @@ defmodule OAuth2.Mixfile do
 
   defp deps do
     [
-      {:hackney, "~> 0.14.1"},
-      {:httpoison, "~> 0.5.0"},
-      {:poison, "~> 1.2"},
+      {:hackney, "~> 1.0.6"},
+      {:httpoison, "~> 0.6.0"},
+      {:poison, "~> 1.3.1"},
       {:cowboy, "~> 1.0", only: :test},
-      {:plug, "~> 0.9.0"},
+      {:plug, "~> 0.11.0"},
     ]
   end
 
